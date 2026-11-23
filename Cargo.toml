@@ -1,0 +1,8 @@
+[package]
+name = "rpn-repl"
+version = "0.1.0"
+edition = "2021"
+authors = ["Estudiantes CAO604 - Universidad de Carabobo"]
+description = "Evaluador Postfijo (RPN) y Mini-REPL interactivo en Rust para CAO604: Lenguajes de Programacion"
+
+[dependencies]

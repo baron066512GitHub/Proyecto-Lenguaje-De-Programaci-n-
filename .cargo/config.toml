@@ -1,0 +1,4 @@
+# Configuración opcional para Windows GNU: usa `rust-lld` incluido con Rust,
+# evitando fallos de `ld` con rutas que contienen tildes o caracteres Unicode.
+[target.x86_64-pc-windows-gnu]
+linker = "rust-lld"
